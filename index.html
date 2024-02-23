@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="Images/chữ.png" type="favicon">
+<title>Anime Music Website</title>
+<script src="https://kit.fontawesome.com/4cc90a1bee.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+        
+        <a><img src="Images/chữ.png", class="logo1" ></a>
+        <ul>
+        <a href="https://www.youtube.com/watch?v=YYX9SZfDF8o">
+        <button >
+         Favourite
+        </button></a>
+        <a href="https://animevietsub.io/phim/jibaku-shounen-hanako-kun-a3784/">
+        <button >
+         Anime
+        </button></a>
+        <a href="https://zh.wikipedia.org/zh-hant/%E9%AC%BC%E9%A0%AD%E6%98%8E%E9%87%8C">
+        <button >
+        Artist
+        </button></a>
+        <a href="https://open.spotify.com/album/19lzFCNnj60K9jg76V6k0b">
+        <button >
+         Spotify
+        </button>
+        </a>      
+        </ul>
+        </div>
+                <div class="creator">
+                        <a href=""><img src="Images/profile.jpg", class="logo2" ></a>
+                </div>
+                <div class="hanako">
+                  <img src="Images/hanako3.png", class="logo3" >
+                  
+                  <div class="details">
+                      <p class="name">Tiny Light</p>
+                      <p1 class="artist">Akari Kitō</p1>
+                      <img src="Images/music-1.jpg" alt="music-cover" class="cover">
+                  </div>
+              <div class="controls">
+                  
+                  <div class="progress-area">
+                    <input type="range" value="0" id="progress">
+                      <div class="command">
+                        <i class="fa-regular fa-heart icon"  onclick="like()" id="like"></i>
+                        
+
+                          <button ><i id="backward" class="fa-solid fa-backward"></i></button>
+                          <div class="play-pause">
+                            <img src="Images/play.png" id = "icon">
+                          </div>
+                          <button ><i id="forward" class="fa-solid fa-forward"></i></button>
+                          <button id="repeat"><i class="fa-solid fa-repeat"></i></button>
+                         
+                      </div>    
+                  </div>
+                  <div class="timer">
+                      <span class="current-time">0:00</span>
+                      <span class="max-time">4:49</span>
+                  </div>
+              </div>        
+          </div>
+
+                <div class="playlist">
+                    <div class="wrapper">
+                        <div class="loading"></div>
+                        <div class="loading"></div>
+                        <div class="loading"></div>
+                        <div class="loading"></div>
+                        <div class="loading"></div>
+                        <div class="loading"></div>
+                        <div class="loading"></div>
+                        <div class="loading"></div>
+                        <div class="loading"></div>
+                        <div class="loading"></div>
+                        
+                    </div>
+                    <p class="lyrics">
+                        Song Lyrics
+                    </p>
+                    <p1 class="lyrics2">
+                        優しさに触れて<br>
+                        残る温度 消えないまま<br>
+                     「愛しい」と言えたら<br>
+                        心は軽くなるかな<br>
+                        閉ざした扉の向こうで<br>
+                        かすかな声が聞こえてる<br>
+                        踏み出すことさえもできないから<br>
+                        孤独に寄り添ってる<br>
+                        まだこの胸の中 息づいたまま<br>
+                        小さな灯火のような思いを<br>
+                        風に吹かれぬように 雨に濡れないように<br>
+                        ずっと 抱き締めてた<br>
+                        ただ 真っ直ぐなまま願う強さも<br>
+                        泣きだしそうになる脆い自分も<br>
+                        君がいなきゃ知らなかったんだよ<br>
+                        偶然の中で 運命を見つけた<br>
+                        瞳閉じるたび 記憶の海 漂っては<br>
+                        二人夢の跡 面影を探してたんだ<br>
+                        変わらないモノクロの日々に<br>
+                        君が色を添えてくから<br>
+                       
+                    </p1>
+                    <p2 class="lyrics3">
+                        滲んだダークさえも いつの間にか<br>
+                        意味を持ち始めてる<br>
+                        まだ この胸の中隠したままの<br>
+                        痛いほど愛おしいこんな思いを<br>
+                        いつか消えてしまう その前に<br>
+                        届けたい人は 君だけなんだ<br>
+                        どんな涙も どんな笑顔も<br>
+                        全ては君のためにあるから<br>
+                        まだこの胸の中 息づいたまま<br>
+                        小さな灯火のような思いを<br>
+                        風に吹かれぬように 雨に濡れないように<br>
+                        ずっと 抱き締めてた<br>
+                        ただ 真っ直ぐなまま願う強さも<br>
+                        泣きだしそうになる脆い自分も<br>
+                        君がいなきゃ知らなかったんだよ<br>
+                        偶然の中で 運命を見つけた<br>
+                        君がいるだけで 世界は変わった<br>
+                    </p2>
+                </div>
+            <div class="wish">
+                <p>  Chúc mừng sinh nhật lần thứ 15 của bạn Quỳnh Anh.<br>
+            Chúc bạn tôi tuổi mới có nhiều sức khỏe, được trải nghiệm nhiều thứ mới, đạt nhiều điều thành công mới, sắc đẹp ngày càng nở rộ.<br>
+                </p>
+            </div>
+    </div>
+    
+    
+      <audio id="music">
+        <source src="Music/music-1.mp3" type="audio/mp3">
+      </audio>
+      
+<script src="script.js"></script>
+        
+</body>
+</html>

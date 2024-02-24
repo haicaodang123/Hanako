@@ -67,7 +67,7 @@ margin-top:25px;
 }
 
 .container .hanako{
-  width:40%;
+  width:41%;
   height:48vh;
   margin-top:270px;
   margin-left: 46px;
@@ -87,15 +87,11 @@ box-shadow:  0 0 40px  #fff;
 }
 .container .hanako .details{
   width:65%;
-  height:18vh ;
+  height:23vh ;
   border-radius: 20px;
-  margin-top: -95px;
-  margin-left: 140px;
-  padding-left: 25px;
-  padding-top:35px;
- 
-  float: left;  
-  
+  margin-top: 25px;
+  margin-right: 20px;
+  float: right;  
   box-shadow:
   inset 100px 0 120px rgb(240, 50, 76),  
   inset -60px 0 120px rgb(3, 255, 255);
@@ -105,14 +101,15 @@ box-shadow:  0 0 40px  #fff;
    font-weight: bold;
    font-family: 'Poppins';
    color: #fff; 
-   
+   margin-top: 33px;
+   margin-left: 20px;
 }
 .container .hanako .details .artist{
   font-size: 16px;
   font-weight: bold;
   font-family: 'Poppins';
   color: #fff; 
-  
+  margin-left: 20px;
 }
 .container .hanako .details .cover{
   width:120px;
@@ -122,8 +119,6 @@ box-shadow:  0 0 40px  #fff;
   box-shadow: 0 0 10px #fff,
   0 0 0 2px rgb(248, 242, 248);
   border-radius: 50%;
-  
-  
 }
 .container .hanako .controls {
   cursor: pointer;
@@ -136,25 +131,24 @@ box-shadow:  0 0 40px  #fff;
   
 }
 .controls .progress-area{
-  height: 17vh;
-  width: 540px;
+  height: 16.7vh;
+  width: 111%;
+  
   margin-top: -13px;
   margin-left: -48px;
   border-radius: 20px;
   box-shadow:
   inset 60px 0 100px rgb(240, 50, 76),  
   inset -60px 0 100px rgb(3, 255, 255);
-  
-  align-items: center;
-  justify-content: space-between;
+  margin-top: -10px;
 }
 .timer .current-time{
-margin-top: -67px;
+margin-top: -65px;
 margin-left: -10px;
 float: left;
 }
 .timer .max-time{
-  margin-top: -67px;
+  margin-top: -65px;
   margin-right: 35px;
   float: right;
   }

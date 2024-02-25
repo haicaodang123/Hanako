@@ -139,55 +139,49 @@ box-shadow:  0 0 40px  #fff;
   box-shadow:
   inset 60px 0 100px rgb(240, 50, 76),  
   inset -60px 0 100px rgb(3, 255, 255);
- 
   position: fixed;
   bottom: 0;
 
 }
-.controls .timer{
-  margin-top: -13px;
-  margin-left: -48px;
-  border-radius: 20px;
-  height: 16.7vh;
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  position: fixed;
-  background:none;
-}
-.timer .current-time{
-margin-top: 45px;
-margin-left: 37px;
+
+.timer1 .current-time{
+
 float: left;
-position: relative;
+position: fixed;
+left: 35px;
+bottom: 45px;
 }
-.timer .max-time{
-  margin-top: 45px;
-  margin-right: 40px;
+.timer2 .max-time{
+ 
   float: right;
-  opacity: 3;
+  position: fixed;
+  right: 35px;
+  bottom: 45px;
 }
 .command i{
-    user-select: none;
-    background: none;
-    outline: none;
-    color: white;
-    font-size: 18px;
-    padding:20px 40px ;
-    border: none;
-}
-.command button{
-  border: none;
+ font-size: 20px;
+  user-select: none;
   background: none;
+  outline: none;
+  color: white;
+  padding-right: 50px;
+  padding-left: 50px;
+  border: none;
+}
+.command #icon{
+  width: 58px;
   
 }
+.command button{
+border: none;
+background: none;
+margin-top: 42px;
+}
 .command{
-   display: flex;
-   justify-content: center;
+ display: flex;
+ justify-content: center;
 }
-.progress-area .command i{
-  margin-top: 6px;
-}
+
 span{
     font-family: 'Poppins';
     font-weight: bold;
@@ -199,8 +193,8 @@ span{
     -webkit-text-fill-color: transparent;
 }
 .playlist{
-    height: 86vh;
-    width: 36%;
+    height: 88vh;
+    width: 40%;
     border-radius: 20px;
     margin-right: 45px;
     margin-top: -500px;
@@ -232,24 +226,7 @@ box-shadow:  0 0 40px  #fff;
               transform: rotate(360deg)
             }
 }
-.wish{
-    height: 9vh;
-    width: 60%;
-    border-radius: 20px;
-    margin-left: 270px;
-    margin-top: 105px;
-    color: #fff;
-    display: flex;
-    padding: 25px 15px;
-    text-align: center;
-    background: rgba(3, 81, 102, 0.41);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(5px);
-    box-shadow:  0 0 40px  #fff;
-    font-weight: bold;
-    font-family: sans-serif;
-    font-size: 16px;
-}
+
 
 #play:focus{
     outline: none;
@@ -264,10 +241,10 @@ box-shadow:  0 0 40px  #fff;
   align-items: center;
   
 }
-.command img{
+.progress-area img{
   width: 55px;
-  margin-top:7px;
-  padding: 0 30px;
+  margin-top: 50px;
+  
 }
 .progress-area #progress{
   border-radius: 4px;
@@ -275,7 +252,8 @@ box-shadow:  0 0 40px  #fff;
   width: 85%;
   height: 6px;
 margin-top: 30px;
-  
+  position: fixed;
+  bottom: 70px;
   background: #f05ea2;
   -webkit-appearance: none;
 }
@@ -337,41 +315,57 @@ box-shadow: 0 0 0px 1px rgb(255, 255, 255);
 
   }
 }
-.playlist .lyrics{
+.playlist .songLyrics{
     font-family: 'Poppins';
     font-size: 30px;
     font-weight: bold;
-    display: flex;
+    text-align: center;
     color: #f5eeee;
-    justify-content: center;
+  
 }
 .playlist .lyrics2{
+  width: 48%;
+ margin-left: 15px;
   font-family: 'Poppins';
   font-size: 12px;
   font-weight: bold;
-   margin-top: 40px;
   color: #f5eeee;
-  display: flex;
-  align-items: center;
- margin-left: 20px;
+ float: left;
+ margin-top: 20px;
+ 
 }
 
 .playlist .lyrics3{
+  width: 48%;
+  float: right;
+  margin-top: 20px;
+}
+h4{
+  
   font-family: 'Poppins';
   font-size: 12px;
   font-weight: bold;
   color: #f5eeee;
-  display: flex;
-  align-items: center;
- margin-left: 250px;
- margin-top: -380px;
+  
 }
+
 .icon{
   font-size: 70px;
   cursor: pointer;
 }
 .icon:hover{
   color: rgb(240, 57, 57);
+}
+footer{
+  font-family: 'Poppins', sans-serif;
+  padding: 5px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+text-align: center;
+box-shadow:
+  inset 100px 0 120px rgb(240, 50, 76),  
+  inset -100px 0 180px rgb(3, 184, 255);
 }
 
 

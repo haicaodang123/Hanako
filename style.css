@@ -127,31 +127,46 @@ box-shadow:  0 0 40px  #fff;
   text-decoration: none;
   margin-left: 48px;
   margin-top: 90px;
-  
+  bottom: 0;
   
 }
 .controls .progress-area{
   height: 16.7vh;
-  width: 111%;
-  
+  width: 100%;
   margin-top: -13px;
   margin-left: -48px;
   border-radius: 20px;
   box-shadow:
   inset 60px 0 100px rgb(240, 50, 76),  
   inset -60px 0 100px rgb(3, 255, 255);
-  margin-top: -10px;
+ 
+  position: fixed;
+  bottom: 0;
+
+}
+.controls .timer{
+  margin-top: -13px;
+  margin-left: -48px;
+  border-radius: 20px;
+  height: 16.7vh;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  position: fixed;
+  background:none;
 }
 .timer .current-time{
-margin-top: -65px;
-margin-left: -10px;
+margin-top: 45px;
+margin-left: 37px;
 float: left;
+position: relative;
 }
 .timer .max-time{
-  margin-top: -65px;
-  margin-right: 35px;
+  margin-top: 45px;
+  margin-right: 40px;
   float: right;
-  }
+  opacity: 3;
+}
 .command i{
     user-select: none;
     background: none;
@@ -256,10 +271,11 @@ box-shadow:  0 0 40px  #fff;
 }
 .progress-area #progress{
   border-radius: 4px;
+  margin-left: 40px;
   width: 85%;
   height: 6px;
 margin-top: 30px;
-  margin-left: 40px;
+  
   background: #f05ea2;
   -webkit-appearance: none;
 }
@@ -333,12 +349,13 @@ box-shadow: 0 0 0px 1px rgb(255, 255, 255);
   font-family: 'Poppins';
   font-size: 12px;
   font-weight: bold;
-  
+   margin-top: 40px;
   color: #f5eeee;
   display: flex;
   align-items: center;
  margin-left: 20px;
 }
+
 .playlist .lyrics3{
   font-family: 'Poppins';
   font-size: 12px;
@@ -347,7 +364,7 @@ box-shadow: 0 0 0px 1px rgb(255, 255, 255);
   display: flex;
   align-items: center;
  margin-left: 250px;
- margin-top: -400px;
+ margin-top: -380px;
 }
 .icon{
   font-size: 70px;
